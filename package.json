@@ -1,0 +1,60 @@
+{
+  "name": "7phantom",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "supabase:init": "npx supabase init",
+    "supabase:login": "npx supabase login",
+    "supabase:link": "npx supabase link",
+    "supabase:start": "npx supabase start",
+    "supabase:stop": "npx supabase stop",
+    "supabase:status": "npx supabase status",
+    "db:local:push": "npx supabase migration up --local",
+    "db:local:reset": "npx supabase db reset",
+    "db:local:types": "npx supabase gen types typescript --local > src/utils/supabase/types.ts",
+    "db:remote:push": "npx supabase db push",
+    "db:remote:types": "npx supabase gen types typescript --linked > src/utils/supabase/types.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "jose": "^6.2.12",
+    "lucide-react": "^1.55.0",
+    "next": "^16.4.0",
+    "radix-ui": "^1.8.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1",
+    "sonner": "^2.0.8",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^10.12.0",
+    "eslint-config-next": "^16.4.0",
+    "postcss": "^8.5.29",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "supabase": "^2.120.0",
+    "tailwindcss": "^4.3.3",
+    "tw-animate-css": "^1.4.0",
+    "typescript": "^6.0.3"
+  }
+}

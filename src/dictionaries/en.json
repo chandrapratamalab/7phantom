@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "CUSTOM STARTER KIT NEXTJS 7PHANTOM",
+    "description": "A multilingual, server-first Next.js foundation with Supabase, Tailwind CSS and shadcn/ui."
+  },
+  "common": {
+    "appName": "7phantom",
+    "loading": "Loading…",
+    "skipToContent": "Skip to content",
+    "backHome": "Back to home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The page you are looking for does not exist or has moved.",
+    "genericError": "Something went wrong. Please try again."
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "signIn": "Sign in",
+    "signOut": "Sign out"
+  },
+  "home": {
+    "badge": "Starter Kit",
+    "title": "CUSTOM STARTER KIT NEXTJS 7PHANTOM",
+    "description": "A multilingual, server-first Next.js foundation with Supabase, Tailwind CSS and shadcn/ui — batteries included and ready to build on.",
+    "primaryCta": "Open dashboard",
+    "secondaryCta": "Sign in",
+    "stackLabel": "Built with",
+    "stack": ["Next.js 16", "React 19", "Supabase", "Tailwind CSS v4", "shadcn/ui", "TypeScript"],
+    "featuresTitle": "What's inside",
+    "features": [
+      {
+        "title": "App Router + i18n",
+        "description": "Locale-aware routing under [lang], typed dictionaries and automatic language negotiation."
+      },
+      {
+        "title": "Supabase + RLS",
+        "description": "Separate browser and server clients, Row Level Security and session refresh in the proxy."
+      },
+      {
+        "title": "Secure Server Actions",
+        "description": "Zod-validated inputs and session checks, with secrets kept strictly server-side."
+      }
+    ],
+    "quickStartTitle": "Quick start",
+    "quickStart": [
+      "npm install",
+      "npm run supabase:start",
+      "npm run db:local:reset",
+      "npm run dev"
+    ],
+    "editHint": "Get started by editing {file}"
+  },
+  "auth": {
+    "signInTitle": "Sign in to your account",
+    "signUpTitle": "Create your account",
+    "description": "Use your email address and password to continue.",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "At least 8 characters",
+    "fullName": "Full name",
+    "fullNamePlaceholder": "Your name",
+    "signInSubmit": "Sign in",
+    "signUpSubmit": "Create account",
+    "signingIn": "Signing in…",
+    "creatingAccount": "Creating account…",
+    "toggleToSignUp": "Create one",
+    "toggleToSignIn": "Sign in",
+    "noAccount": "Do not have an account?",
+    "hasAccount": "Already have an account?",
+    "checkEmail": "Check your inbox to confirm your email address.",
+    "callbackError": "We could not complete the sign-in. Please try again.",
+    "errors": {
+      "invalidInput": "Please check the highlighted fields.",
+      "invalidCredentials": "Invalid email or password.",
+      "emailNotConfirmed": "Confirm your email address before signing in.",
+      "unknown": "Something went wrong. Please try again."
+    }
+  },
+  "validation": {
+    "email": "Enter a valid email address.",
+    "passwordMin": "Password must be at least 8 characters.",
+    "fullNameMin": "Please enter at least 2 characters."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "This page is rendered on the server for the signed-in user only.",
+    "greeting": "Signed in as {email}",
+    "sessionTitle": "Session",
+    "userId": "User ID",
+    "locale": "Interface language",
+    "notesTitle": "Your notes",
+    "notesEmpty": "No notes yet.",
+    "signOut": "Sign out"
+  }
+}

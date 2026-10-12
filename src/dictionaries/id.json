@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "CUSTOM STARTER KIT NEXTJS 7PHANTOM",
+    "description": "Fondasi Next.js multibahasa dengan arsitektur server-first, Supabase, Tailwind CSS, dan shadcn/ui."
+  },
+  "common": {
+    "appName": "7phantom",
+    "loading": "Memuat…",
+    "skipToContent": "Lompat ke konten",
+    "backHome": "Kembali ke beranda",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "language": "Bahasa",
+    "theme": "Tema",
+    "themeLight": "Terang",
+    "themeDark": "Gelap",
+    "themeSystem": "Sistem",
+    "notFoundTitle": "Halaman tidak ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada atau sudah dipindahkan.",
+    "genericError": "Terjadi kesalahan. Silakan coba lagi."
+  },
+  "nav": {
+    "home": "Beranda",
+    "dashboard": "Dasbor",
+    "signIn": "Masuk",
+    "signOut": "Keluar"
+  },
+  "home": {
+    "badge": "Starter Kit",
+    "title": "CUSTOM STARTER KIT NEXTJS 7PHANTOM",
+    "description": "Fondasi Next.js multibahasa dan server-first dengan Supabase, Tailwind CSS, dan shadcn/ui — siap dikembangkan.",
+    "primaryCta": "Buka dasbor",
+    "secondaryCta": "Masuk",
+    "stackLabel": "Dibangun dengan",
+    "stack": ["Next.js 16", "React 19", "Supabase", "Tailwind CSS v4", "shadcn/ui", "TypeScript"],
+    "featuresTitle": "Isi paket",
+    "features": [
+      {
+        "title": "App Router + i18n",
+        "description": "Routing sadar-locale di bawah [lang], dictionary bertipe, dan negosiasi bahasa otomatis."
+      },
+      {
+        "title": "Supabase + RLS",
+        "description": "Klien browser dan server terpisah, Row Level Security, dan penyegaran sesi di proxy."
+      },
+      {
+        "title": "Server Action aman",
+        "description": "Input divalidasi Zod dan pemeriksaan sesi, dengan rahasia tetap di sisi server."
+      }
+    ],
+    "quickStartTitle": "Mulai cepat",
+    "quickStart": [
+      "npm install",
+      "npm run supabase:start",
+      "npm run db:local:reset",
+      "npm run dev"
+    ],
+    "editHint": "Mulai dengan mengedit {file}"
+  },
+  "auth": {
+    "signInTitle": "Masuk ke akun Anda",
+    "signUpTitle": "Buat akun Anda",
+    "description": "Gunakan alamat email dan kata sandi Anda untuk melanjutkan.",
+    "email": "Email",
+    "emailPlaceholder": "anda@contoh.com",
+    "password": "Kata sandi",
+    "passwordPlaceholder": "Minimal 8 karakter",
+    "fullName": "Nama lengkap",
+    "fullNamePlaceholder": "Nama Anda",
+    "signInSubmit": "Masuk",
+    "signUpSubmit": "Buat akun",
+    "signingIn": "Sedang masuk…",
+    "creatingAccount": "Membuat akun…",
+    "toggleToSignUp": "Buat sekarang",
+    "toggleToSignIn": "Masuk",
+    "noAccount": "Belum punya akun?",
+    "hasAccount": "Sudah punya akun?",
+    "checkEmail": "Periksa kotak masuk Anda untuk mengonfirmasi alamat email.",
+    "callbackError": "Kami tidak dapat menyelesaikan proses masuk. Silakan coba lagi.",
+    "errors": {
+      "invalidInput": "Mohon periksa kolom yang ditandai.",
+      "invalidCredentials": "Email atau kata sandi salah.",
+      "emailNotConfirmed": "Konfirmasi alamat email Anda sebelum masuk.",
+      "unknown": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  },
+  "validation": {
+    "email": "Masukkan alamat email yang valid.",
+    "passwordMin": "Kata sandi minimal 8 karakter.",
+    "fullNameMin": "Mohon masukkan minimal 2 karakter."
+  },
+  "dashboard": {
+    "title": "Dasbor",
+    "description": "Halaman ini dirender di server hanya untuk pengguna yang sudah masuk.",
+    "greeting": "Masuk sebagai {email}",
+    "sessionTitle": "Sesi",
+    "userId": "ID Pengguna",
+    "locale": "Bahasa antarmuka",
+    "notesTitle": "Catatan Anda",
+    "notesEmpty": "Belum ada catatan.",
+    "signOut": "Keluar"
+  }
+}
